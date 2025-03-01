@@ -7,7 +7,7 @@ url: "https://zhangyurou.github.io/PI-TG/"
 github_username:  zhangyurou
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 

@@ -1,3 +1,46 @@
 ---
 ---
-@import "main";
+@import "main"; 
+/* 导航条样式 */
+.site-header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center; /* 文本水平居中 */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.site-nav {
+    display: flex; /*inline-block; /* 使导航条内容居中 */
+    margin-top: 10px;
+    gap: 30px;
+    justify-content: center; /* 水平居中 */
+
+}
+
+.site-nav a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    /*margin: 0 20px;*/ /* 导航项之间的间距 */
+}
+
+.site-nav a:hover {
+    color: #007bff;
+}
+
+.site-nav a.current {
+    font-weight: bold;
+    color: #007bff;
+}
