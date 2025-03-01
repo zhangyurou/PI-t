@@ -1,6 +1,10 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+- name: Video
+  link: /video.html
+- name: Code
+  link: /code.html
+- name: Dataset
+  link: /dataset.html
+- name: Paper
+  link: /paper.html

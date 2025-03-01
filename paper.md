@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Blog
+title: Paper
 ---
 
-<h1> Lasted Posts </h1>
+<h1> 论文文章 </h1>
 
 <ul>
   {% for post in site.posts %}

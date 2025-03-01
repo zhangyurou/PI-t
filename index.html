@@ -2,6 +2,27 @@
 layout: default
 title: Home
 ---
-<h1>{{ "PI-TG!!!" }}</h1>
+<style>
+    /* 全局居中样式 */
+    .center-container {
+        display: flex;
+        flex-direction: column; /* 垂直排列子元素 */
+        justify-content: center; /* 垂直居中 */
+        align-items: center; /* 水平居中 */
+        height: 100vh; /* 使容器占满整个视口高度 */
+        text-align: center; /* 文本水平居中 */
+    }
 
+    /* 图片样式 */
+    .center-container img {
+        max-width: 100%; /* 图片最大宽度为容器宽度 */
+        height: auto; /* 高度自适应 */
+    }
+</style>
 
+<div class="center-container">
+    <h1>{{ "PI-TG!!!" }}</h1>
+    <h1>这是一个机械臂的控制项目</h1>
+    <!--<img src="{{ '/assets/images/aiguo.png' | relative_url }}" alt="Example Image" width="500"> -->
+    <img src="{{ '/assets/images/arm_strc.png' | relative_url }}" alt="Example Image" width="1000">
+</div>
