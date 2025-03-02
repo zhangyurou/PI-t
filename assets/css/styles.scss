@@ -44,3 +44,37 @@
     font-weight: bold;
     color: #007bff;
 }
+
+/* home页面格式 */
+/* 全局居中样式 */
+.center-container {
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    justify-content: flex-start; /* 垂直居中 */
+    align-items: center; /* 水平居中 */
+    text-align: center; /* 文本水平居中 */
+    padding: 20px 0; /* 添加内边距，避免内容紧贴边缘 */
+    /* height: 100vh; */ /* 保留占满视口高度 */
+}
+
+/* 图片样式 */
+.center-container img {
+    max-width: 100%; /* 图片最大宽度为容器宽度 */
+    height: auto; /* 高度自适应 */
+}
+
+/* 自定义分割线样式 */
+.custom-hr {
+    border: 0;
+    height: 2px;
+    background: #133;
+    margin: 20px 0;
+}
+
+ /* 自定义分割线样式 */
+.divider {
+    height: 2px; /* 设置分割线高度 */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* 渐变颜色 */
+    margin: 20px 0; /* 设置上下边距 */
+    border-radius: 2px; /* 圆角效果 */
+}

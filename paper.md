@@ -3,9 +3,8 @@ layout: default
 title: Paper
 ---
 
-<h1> 论文文章 </h1>
-
-<ul>
+<h1>Loading...</h1>
+<!--<ul>
   {% for post in site.posts %}
   <li>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -13,3 +12,4 @@ title: Paper
   </li>
   {% endfor %}
 </ul>
+-->
