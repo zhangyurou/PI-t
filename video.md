@@ -16,7 +16,7 @@ title: Video
       <div class="video-container">
         <h1>My Video</h1>
         <video width="1080" height="720" controls>
-          <source src="./assets/images/iros.mp4" type="video/mp4">
+          <source src="{{ '/assets/images/iros.mp4' | relative_url }}" type="video/mp4">
         </video>
       </div>
     </div>
