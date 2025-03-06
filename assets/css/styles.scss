@@ -78,3 +78,54 @@
     margin: 20px 0; /* 设置上下边距 */
     border-radius: 2px; /* 圆角效果 */
 }
+
+/* 数据集页面布局 */
+.dataset-page {
+    display: flex;
+    min-height: 100vh;
+}
+
+.dataset-sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+}
+
+.dataset-content {
+    width: 80%;
+    padding: 20px;
+}
+
+/* 数据集目录样式 */
+.dataset-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.dataset-nav li {
+    margin: 10px 0;
+}
+
+.dataset-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.dataset-nav a:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.dataset-nav a.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+
+
