@@ -19,15 +19,15 @@ title: Dataset
             <h2>Download Dataset</h2>
             <p>You can download our dataset through the following link:</p>
             <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
-            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
+            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a>
 
             <h2>The effection of the dataset</h2>
             <p>Simulation Environment:</p>
             <div style="text-align: center;">
-                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+                <img src="{{ '/assets/images/blockpushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
             </div>
             <div style="text-align: center; margin-top: 20px;">
-                <video width="500" controls>
+                <video width="500" controls autoplay muted loop>
                     <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -47,17 +47,17 @@ title: Dataset
 
             <h2>Download Dataset</h2>
             <p>You can download our dataset through the following link:</p>
-            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
-            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
+            <p>https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip</p>
+            <a href="https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip">download</a>
 
             <h2>The effection of the dataset</h2>
             <p>Simulation Environment:</p>
             <div style="text-align: center;">
-                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+                <img src="{{ '/assets/images/pusht.png' | relative_url }}" alt="Block-Pushing Image" width="300">
             </div>
             <div style="text-align: center; margin-top: 20px;">
-                <video width="500" controls>
-                    <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
+                <video width="300" controls autoplay muted loop>
+                    <source src="{{ '/assets/videos/pusht.mp4' | relative_url }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -71,24 +71,40 @@ title: Dataset
         </div>
 
         <div id="mimicgen" style="display: none;">
-            <h1>Another Dataset</h1>
+            <h1>MimicGen Dataset</h1>
 
             <h2>Download Dataset</h2>
             <p>You can download our dataset through the following link:</p>
-            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
-            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
+            <p>https://diffusion-policy.cs.columbia.edu/data/training/robomimic_lowdim.zip</p>
+            <a href="https://diffusion-policy.cs.columbia.edu/data/training/robomimic_lowdim.zip">download</a>
 
             <h2>The effection of the dataset</h2>
             <p>Simulation Environment:</p>
-            <div style="text-align: center;">
-                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+            <div style="text-align: center; display: flex; justify-content: space-between;">
+                <img src="{{ '/assets/images/mimicgen1.png' | relative_url }}" alt="Block-Pushing Image" width="200">
+                <img src="{{ '/assets/images/mimicgen2.png' | relative_url }}" alt="Block-Pushing Image" width="200">
+                <img src="{{ '/assets/images/mimicgen3.png' | relative_url }}" alt="Block-Pushing Image" width="200">
+                <img src="{{ '/assets/images/mimicgen4.png' | relative_url }}" alt="Block-Pushing Image" width="200">
             </div>
-            <div style="text-align: center; margin-top: 20px;">
-                <video width="500" controls>
-                    <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
+            <div style="text-align: center; margin-top: 20px; display: flex; justify-content: space-between;">
+                <video width="200" controls autoplay muted loop>
+                    <source src="{{ '/assets/videos/mimicgen1.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls autoplay muted loop>
+                    <source src="{{ '/assets/videos/mimicgen2.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls autoplay muted loop>
+                    <source src="{{ '/assets/videos/mimicgen3.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls autoplay muted loop>
+                    <source src="{{ '/assets/videos/mimicgen4.mp4' | relative_url }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
+
 
             <h2>Dataset Statistics</h2>
             <ul>
@@ -118,5 +134,9 @@ document.querySelectorAll('.dataset-nav a').forEach(link => {
     });
 });
 </script>
+
+<footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #f5f5f5;">
+    <p>© Copyright Beijing Key Laboratory of Light Industrial Robotics and Safety Verification, College of Information Engineering, Capital Normal University 2025</p>
+</footer>
 
 
