@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code
+title: Contribution
 ---
 <!--
 # Code Page
