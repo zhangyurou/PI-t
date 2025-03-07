@@ -7,67 +7,94 @@ title: Dataset
     <div class="dataset-sidebar">
         <ul class="dataset-nav">
             <li><a href="#block-pushing" class="active">Block-Pushing</a></li>
-            <li><a href="#pi-tg">PI-TG</a></li>
-            <li><a href="#another-dataset">Another Dataset</a></li>
+            <li><a href="#push-t">Push-T</a></li>
+            <li><a href="#mimicgen">MimicGen</a></li>
         </ul>
     </div>
 
     <div class="dataset-content">
         <div id="block-pushing">
-            <h1>Block-Pushing 数据集</h1>
+            <h1>Block-Pushing Dataset</h1>
 
-            <h2>数据集下载</h2>
-            <p>您可以通过以下链接下载我们的数据集：</p>
-            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">下载数据集</a>
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
 
-            <h2>数据集效果</h2>
-            <p>以下是数据集的仿真环境：</p>
-            <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="PI-TG Image" width="100">
-            
-            <h2>数据集统计</h2>
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center;">
+                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <video width="500" controls>
+                    <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Dataset Statistics</h2>
             <ul>
-                <li>总样本数：15,000</li>
-                <li>训练集：12,000</li>
-                <li>测试集：3,000</li>
-                <li>类别数：12</li>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
             </ul>
         </div>
 
-        <div id="pi-tg" style="display: none;">
-            <h1>PI-TG 数据集</h1>
-            <h2>数据集下载</h2>
-            <p>您可以通过以下链接下载我们的数据集：</p>
-            <a href="https://github.com/NVlabs/mimicgen#downloading-and-using-datasets">下载数据集</a>
-            
-            <h2>数据集效果</h2>
-            <p>以下是数据集的仿真环境：</p>
-            <img src="{{ '/assets/images/pi-tg.png' | relative_url }}" alt="PI-TG Image" width="100">
-            
-            <h2>数据集统计</h2>
+
+        <div id="push-t" style="display: none;">
+            <h1>Push-T Dataset</h1>
+
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
+
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center;">
+                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <video width="500" controls>
+                    <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Dataset Statistics</h2>
             <ul>
-                <li>总样本数：15,000</li>
-                <li>训练集：12,000</li>
-                <li>测试集：3,000</li>
-                <li>类别数：12</li>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
             </ul>
         </div>
 
-        <div id="another-dataset" style="display: none;">
+        <div id="mimicgen" style="display: none;">
             <h1>Another Dataset</h1>
-            <h2>数据集下载</h2>
-            <p>您可以通过以下链接下载我们的数据集：</p>
-            <a href="https://example.com/dataset.zip">下载数据集</a>
-            
-            <h2>数据集效果</h2>
-            <p>以下是数据集的仿真环境：</p>
-            <img src="{{ '/assets/images/another-dataset.png' | relative_url }}" alt="Another Dataset Image" width="100">
-            
-            <h2>数据集统计</h2>
+
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">downloading</a>
+
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center;">
+                <img src="{{ '/assets/images/block-pushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <video width="500" controls>
+                    <source src="{{ '/assets/videos/blockpushing.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Dataset Statistics</h2>
             <ul>
-                <li>总样本数：8,000</li>
-                <li>训练集：6,400</li>
-                <li>测试集：1,600</li>
-                <li>类别数：8</li>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
             </ul>
         </div>
     </div>
