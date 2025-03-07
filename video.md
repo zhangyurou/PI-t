@@ -15,7 +15,7 @@ title: Video
     <div class="center-container">
       <div class="video-container">
         <h1>My Video</h1>
-        <video width="1080" height="720" controls>
+        <video width="1080" height="720" controls autoplay muted loop>
           <source src="{{ '/assets/videos/iros.mp4' | relative_url }}" type="video/mp4">
         </video>
       </div>
