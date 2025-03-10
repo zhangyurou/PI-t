@@ -3,25 +3,25 @@ layout: default
 title: Dataset
 ---
 
-<div class="dataset-page">
-    <div class="dataset-sidebar">
-        <ul class="dataset-nav">
-            <li><a href="#block-pushing" class="active">Block-Pushing</a></li>
-            <li><a href="#push-t">Push-T</a></li>
-            <li><a href="#mimicgen">MimicGen</a></li>
+<div class="dataset-page" style="display: flex; width: 100%;">
+    <div class="dataset-sidebar" style="width: 200px; padding: 20px; margin-right: 20px;">
+        <ul class="dataset-nav" style="list-style: none; padding: 0; text-align: left;">
+            <li style="margin-bottom: 10px;"><a href="#block-pushing" class="active" style="text-decoration: none; color: #333;">Block-Pushing</a></li>
+            <li style="margin-bottom: 10px;"><a href="#push-t" style="text-decoration: none; color: #333;">Push-T</a></li>
+            <li style="margin-bottom: 10px;"><a href="#mimicgen" style="text-decoration: none; color: #333;">MimicGen</a></li>
         </ul>
     </div>
 
-    <div class="dataset-content">
+    <div class="dataset-content" style="flex: 1; max-width: 1000px; padding: 20px;">
         <div id="block-pushing">
-            <h1>Block-Pushing Dataset</h1>
+            <h1 style="text-align: center;">Block-Pushing Dataset</h1>
 
-            <h2>Download Dataset</h2>
-            <p>You can download our dataset through the following link:</p>
-            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
-            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a>
+            <h2 style="text-align: center;">Download Dataset</h2>
+            <p style="text-align: center;">You can download our dataset through the following link:</p>
+            <p style="text-align: center;">https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <p style="text-align: center;"><a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a></p>
 
-            <h2>The effection of the dataset</h2>
+            <h2 style="text-align: center;">The effection of the dataset</h2>
             <p>Simulation Environment:</p>
             <div style="text-align: center;">
                 <img src="{{ '/assets/images/blockpushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
