@@ -14,15 +14,15 @@ title: Dataset
 
     <div class="dataset-content" style="flex: 1; max-width: 1000px; padding: 20px;">
         <div id="block-pushing">
-            <h1 style="text-align: center;">Block-Pushing Dataset</h1>
+            <h1 style="text-align: left;">Block-Pushing Dataset</h1>
 
-            <h2 style="text-align: center;">Download Dataset</h2>
-            <p style="text-align: center;">You can download our dataset through the following link:</p>
-            <p style="text-align: center;">https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
-            <p style="text-align: center;"><a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a></p>
+            <h2 style="text-align: left;">Download Dataset</h2>
+            <p style="text-align: left;">You can download our dataset through the following link:</p>
+            <p style="text-align: left;">https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <p style="text-align: left;"><a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a></p>
 
-            <h2 style="text-align: center;">The effection of the dataset</h2>
-            <p>Simulation Environment:</p>
+            <h2 style="text-align: left;">The effection of the dataset</h2>
+            <p style="text-align: left;">Simulation Environment:</p>
             <div style="text-align: center;">
                 <img src="{{ '/assets/images/blockpushing.png' | relative_url }}" alt="Block-Pushing Image" width="300">
             </div>
