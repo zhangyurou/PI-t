@@ -10,7 +10,6 @@ title: Code
     
     <div style="text-align: center; margin: 20px 0;">
         <a href="https://github.com/zhangyurou/PI-t" class="github-link" style="font-size: 1.2em; text-decoration: none; color: #0366d6;">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" style="width: 80px; vertical-align: middle; margin-right: 10px;">
             Visit our GitHub Repository
         </a>
     </div>
