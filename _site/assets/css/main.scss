@@ -1,0 +1,54 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 导航条样式 */
+.site-header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center; /* 文本水平居中 */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.site-nav {
+    display: inline-block; /* 使导航条内容居中 */
+    margin-top: 10px;
+}
+
+.trigger {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    gap: 20px; /* 导航项之间的间距 */
+}
+
+.page-link {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: #007bff;
+}
+
+/* 页脚样式 */
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}

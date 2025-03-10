@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dataset</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    
+    <a class="site-title" href="/PI-t/">πₜ</a>
+    <nav class="site-nav">
+      
+        <a href="/PI-t/" >
+          Home
+        </a>
+      
+        <a href="/PI-t/video.html" >
+          Video
+        </a>
+      
+        <a href="/PI-t/code.html" >
+          Code
+        </a>
+      
+        <a href="/PI-t/dataset.html"  class="current">
+          Dataset
+        </a>
+      
+        <a href="/PI-t/paper.html" >
+          Paper
+        </a>
+      
+        <a href="/PI-t/Contribution.html" >
+          Contribution
+        </a>
+      
+    </nav>
+
+  </div>
+</header>
+
+    <div class="dataset-page">
+    <div class="dataset-sidebar">
+        <ul class="dataset-nav">
+            <li><a href="#block-pushing" class="active">Block-Pushing</a></li>
+            <li><a href="#push-t">Push-T</a></li>
+            <li><a href="#mimicgen">MimicGen</a></li>
+        </ul>
+    </div>
+
+    <div class="dataset-content">
+        <div id="block-pushing">
+            <h1>Block-Pushing Dataset</h1>
+
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip</p>
+            <a href="https://github.com/zhangyurou/PI-t/blob/main/block_pushing.zip">download</a>
+
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center;">
+                <img src="/PI-t/assets/images/blockpushing.png" alt="Block-Pushing Image" width="300" />
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <video width="500" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/blockpushing.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Dataset Statistics</h2>
+            <ul>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
+            </ul>
+        </div>
+
+
+        <div id="push-t" style="display: none;">
+            <h1>Push-T Dataset</h1>
+
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip</p>
+            <a href="https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip">download</a>
+
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center;">
+                <img src="/PI-t/assets/images/pusht.png" alt="Block-Pushing Image" width="300" />
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <video width="300" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/pusht.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Dataset Statistics</h2>
+            <ul>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
+            </ul>
+        </div>
+
+        <div id="mimicgen" style="display: none;">
+            <h1>MimicGen Dataset</h1>
+
+            <h2>Download Dataset</h2>
+            <p>You can download our dataset through the following link:</p>
+            <p>https://diffusion-policy.cs.columbia.edu/data/training/robomimic_lowdim.zip</p>
+            <a href="https://diffusion-policy.cs.columbia.edu/data/training/robomimic_lowdim.zip">download</a>
+
+            <h2>The effection of the dataset</h2>
+            <p>Simulation Environment:</p>
+            <div style="text-align: center; display: flex; justify-content: space-between;">
+                <img src="/PI-t/assets/images/mimicgen1.png" alt="Block-Pushing Image" width="200" />
+                <img src="/PI-t/assets/images/mimicgen2.png" alt="Block-Pushing Image" width="200" />
+                <img src="/PI-t/assets/images/mimicgen3.png" alt="Block-Pushing Image" width="200" />
+                <img src="/PI-t/assets/images/mimicgen4.png" alt="Block-Pushing Image" width="200" />
+            </div>
+            <div style="text-align: center; margin-top: 20px; display: flex; justify-content: space-between;">
+                <video width="200" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/mimicgen1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/mimicgen2.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/mimicgen3.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <video width="200" controls="" autoplay="" muted="" loop="">
+                    <source src="/PI-t/assets/videos/mimicgen4.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+
+            <h2>Dataset Statistics</h2>
+            <ul>
+                <li>Total samples: 114,962</li>
+                <li>Action space: 2D (x, y coordinates of the robot arm end-effector)</li>
+                <li>Observation space: 16D (translation and rotation of two blocks, translation and rotation of two target positions, translation of the robot arm end-effector)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll('.dataset-nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // 隐藏所有内容
+        document.querySelectorAll('.dataset-content > div').forEach(div => {
+            div.style.display = 'none';
+        });
+        // 显示选中的内容
+        document.querySelector(this.getAttribute('href')).style.display = 'block';
+        // 更新active状态
+        document.querySelectorAll('.dataset-nav a').forEach(a => {
+            a.classList.remove('active');
+        });
+        this.classList.add('active');
+    });
+});
+</script>
+
+<footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #f5f5f5;">
+    <p>© Copyright Beijing Key Laboratory of Light Industrial Robotics and Safety Verification, College of Information Engineering, Capital Normal University 2025</p>
+</footer>
+
+
+  </body>
+</html>
