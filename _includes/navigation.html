@@ -1,14 +1,19 @@
-<header class="site-header">
-  <div class="wrapper">
-    
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<header class="site-header" style="background: linear-gradient(to right, #c4caff, #e2c6ff); width: 100vw; margin: 0; padding: 10px 0; position: relative; left: 50%; transform: translateX(-50%); box-sizing: border-box; margin-top: -10px;">
+  <div class="wrapper" style="max-width: 100%; margin: 0 20px; box-sizing: border-box; text-align: center;">
+    <div style="margin-bottom: 5px; display: flex; justify-content: center; align-items: flex-start;">
+      <a class="site-title" href="{{ site.baseurl }}/" style="font-size: 80px; font-weight: bold; margin-right: 60px; line-height: 1; position: relative; left: -80px; margin-top: -10px;">{{ site.title }}</a>
+      <div style="text-align: center; position: relative; left: -80px; flex-grow: 1; max-width: 1000px;">
+        <div style="font-size: 40px; color: #333; line-height: 1.2;">A Physics-Informed Plug-in Model for Refining</div>
+        <div style="font-size: 40px; color: #333; line-height: 1.2;">Generated Robotic Trajectories</div>
+      </div>
+    </div>
     <nav class="site-nav">
       {% for item in site.data.navigation %}
-        <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>
+        <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %} 
+           style="background-color: #f0f0f0; padding: 8px 20px; border-radius: 20px; margin: 0 5px; text-decoration: none; color: #333; transition: background-color 0.3s;">
           {{ item.name }}
         </a>
       {% endfor %}
     </nav>
-
   </div>
 </header>

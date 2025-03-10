@@ -16,20 +16,28 @@ title: Code
     </div>
 
     <div style="text-align: justify;">
-        <h2>Introduction</h2>
-        <p>
-            This is the official implementation of the paper "πₜ: Physics-Informed Plug-in Model for Robotic Trajectory Generation". Our code includes the implementation of the physics-informed neural network (PINN) for trajectory refinement and the dataset used in our experiments.
-        </p>
-
         <h2>Installation</h2>
-        <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto;">
-git clone git@github.com:zhangyurou/PI-t.git
+        <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto; font-family: 'Consolas', monospace;">git clone git@github.com:zhangyurou/PI-t.git
 cd PI-t</pre>
 
+        <h2>Environment</h2>
+        <a href="https://github.com/zhangyurou/PI-t/blob/main/requirements.txt" style="display: block; text-decoration: none; color: #0366d6; margin-bottom: 10px; font-size: 0.9em;">
+            View complete requirements.txt
+        </a>
+        <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto; font-family: 'Consolas', monospace;">matplotlib==3.9.4
+mpmath==1.3.0
+networkx==3.2.1
+numpy==2.0.2
+pillow==11.1.0
+sympy==1.13.1
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0</pre>
+
         <h2>Usage</h2>
-        <p style="margin-bottom: 20px;">Please follow these steps to use our code:</p>
+        <p style="margin-bottom: 20px; color: #333;">Please follow these steps to use our code:</p>
         
-        <ol style="text-align: left; line-height: 1.8;">
+        <ol style="text-align: left; line-height: 1.8; color: #333;">
             <li><strong>Data Preprocessing</strong>
                 <p>Convert 'zarr' format to 'txt' format using 'readzarr.py' for easier handling.</p>
             </li>
