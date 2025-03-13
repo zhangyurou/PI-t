@@ -160,6 +160,16 @@ title: Dataset
         <li>Note: The action space is converted to 10D, mainly due to the transformation of 3D rotation angles into 6D representation.</li>
         <li>Observation space: 53D (   )</li>
       </ul>
+      <h2>Robot Arm Specifications</h2>
+      <ul>
+        <li>Model: Franka Emika Panda robotic arm</li>
+        <li>Degrees of Freedom: 7</li>
+        <li>Configuration: Serial manipulator</li>
+        <li>Robot Arm Configuration Details: <span style="color: #666;">(Coming soon...)</span></li>
+      </ul>
+      <div style="text-align: center; margin-top: 20px;">
+        <img src="{{ '/assets/images/franka.png' | relative_url }}" alt="xArm6 Robot" width="400">
+      </div>
     </div>
   </div>
 </div>
