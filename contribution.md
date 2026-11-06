@@ -17,7 +17,7 @@ The code of the PI-TG project
     <h2>Author Information</h2>
     <div style="display: flex; justify-content: center; gap: 30px; margin: 20px 0;">
         <div style="text-align: center;">
-            <img src="{{ '/assets/images/A1.jpg' | relative_url }}" alt="Yurou Zhang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+            <img src="{{ 'assets/images/a6ea59f304931dad185bd0e89f71932f.jpg' | relative_url }}" alt="Yurou Zhang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
             <p>Yurou Zhang<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
@@ -33,11 +33,11 @@ The code of the PI-TG project
             <p>Guohui Wang<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
-            <img src="{{ '/assets/images/A5.jpg' | relative_url }}" alt="Yibo Zou" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+            <img src="{{ '/assets/images/images.jpg' | relative_url }}" alt="Yibo Zou" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
             <p>Yibo Zou<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
-            <img src="{{ '/assets/images/A5.jpg' | relative_url }}" alt="Donghan Kim" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+            <img src="{{ '/assets/images/images.jpg' | relative_url }}" alt="Donghan Kim" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
             <p>Donghan Kim<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
