@@ -34,11 +34,11 @@ The code of the PI-TG project
         </div>
         <div style="text-align: center;">
             <img src="{{ '/assets/images/images.jpg' | relative_url }}" alt="Yibo Zou" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-            <p>Yibo Zou<sup>1</sup></p>
+            <p>Yibo Zou<sup>2</sup></p>
         </div>
         <div style="text-align: center;">
             <img src="{{ '/assets/images/images.jpg' | relative_url }}" alt="Donghan Kim" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-            <p>Donghan Kim<sup>1</sup></p>
+            <p>Donghan Kim<sup>3</sup></p>
         </div>
         <div style="text-align: center;">
             <img src="{{ '/assets/images/A6.jpg' | relative_url }}" alt="Zhenzhou Shao" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
@@ -47,7 +47,9 @@ The code of the PI-TG project
     </div>
     <ul style="list-style-type: none; padding-left: 0;">
     <li>*Corresponding author</li>
-    <li><sup>1</sup>Yurou Zhang, Yuandong Wang, Yong Guan, Guohui Wang, Yibo Zou, Donghan Kim and Zhenzhou Shao are with the College of Information Engineering, Beijing Key Laboratory of Light Industrial Robot and Safety Verification, Capital Normal University, Beijing, 100048, China. {2231002006, wangyd, guanyong, ghwang, 1210604006, zshao}@cnu.edu.cn</li>
+    <li><sup>1</sup>Yurou Zhang, Yuandong Wang, Yong Guan, Guohui Wang and Zhenzhou Shao are with the College of Information Engineering, Beijing Key Laboratory of Light Industrial Robot and Safety Verification, Capital Normal University, Beijing, 100048, China. {2231002006, wangyd, guanyong, ghwang, 1210604006, zshao}@cnu.edu.cn</li>
+    <li><sup>2</sup>Yibo Zou, School of Optoelectronic Science and Technology, Soochow University, China</li>
+    <li><sup>3</sup>Donghan Kim, Department of Electronic Engineering, Kyung Hee University, Korea</li>
     </ul>
 </div>
 
