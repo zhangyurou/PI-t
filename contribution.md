@@ -33,8 +33,12 @@ The code of the PI-TG project
             <p>Guohui Wang<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
-            <img src="{{ '/assets/images/A5.jpg' | relative_url }}" alt="Yifan Hu" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-            <p>Yifan Hu<sup>1</sup></p>
+            <img src="{{ '/assets/images/A5.jpg' | relative_url }}" alt="Yibo Zou" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+            <p>Yibo Zou<sup>1</sup></p>
+        </div>
+        <div style="text-align: center;">
+            <img src="{{ '/assets/images/A5.jpg' | relative_url }}" alt="Donghan Kim" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+            <p>Donghan Kim<sup>1</sup></p>
         </div>
         <div style="text-align: center;">
             <img src="{{ '/assets/images/A6.jpg' | relative_url }}" alt="Zhenzhou Shao" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
